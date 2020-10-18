@@ -1,0 +1,17 @@
+.radio-btn {
+  display: inline-block;
+  margin: auto 5px;
+}
+
+.col-label {
+  width: fit-content;
+}
+
+.col-label div {
+  width: fit-content;
+  margin-top: 5px;
+}
+
+.col-txt {
+  padding-left: 0px;
+}
