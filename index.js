@@ -7,6 +7,9 @@ let calcBtn = document.getElementById("calc-btn");
 calcBtn.addEventListener("click", calcBtnClicked);
 
 function calcBtnClicked() {
+
+  resNum.value = "";
+
   if(firstNum.value.length === 0 || secondNum.value.length === 0)
   {
     notice.innerHTML = "Cả 2 ô đều phải có giá trị!";
